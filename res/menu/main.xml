@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bjut.sse.bigchat.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/actionbar_search_icon"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.widget.SearchView"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/action_plus"
+        android:icon="@drawable/actionbar_add_icon"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_plus"
+        android:actionProviderClass="com.bjut.sse.circle.PlusActionProvider"/>
+    <item
+        android:id="@+id/action_msg_center"
+        android:icon="@drawable/ofm_photo_icon"
+        android:showAsAction="never"
+        android:title="@string/action_msg_center"/>
+    <item
+        android:id="@+id/action_post"
+        android:icon="@drawable/ofm_collect_icon"
+        android:showAsAction="never"
+        android:title="@string/action_post"/>
+    <item
+        android:id="@+id/action_top"
+        android:icon="@drawable/ofm_card_icon"
+        android:showAsAction="never"
+        android:title="@string/action_top"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ofm_setting_icon"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_feed"
+        android:icon="@drawable/ofm_feedback_icon"
+        android:showAsAction="never"
+        android:title="@string/action_feed"/>
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ofm_feedback_icon"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+
+</menu>

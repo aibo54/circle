@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Circle</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="action_search">搜索</string>
+    <string name="action_plus">发布信息</string>
+    
+    <string name="action_msg_center">消息中心</string>
+    <string name="action_post">我的发布</string>
+    <string name="action_top">排行榜</string>
+    <string name="action_settings">设置</string>
+    <string name="action_feed">意见反馈</string>
+    <string name="action_about">关于</string>
+    
+    <string name="plus_group_chat">发起群聊</string>
+    <string name="plus_add_friend">添加好友</string>
+    <string name="plus_video_chat">视频聊天</string>
+    <string name="plus_scan">扫一扫</string>
+    <string name="plus_take_photo">拍照分享</string>
+
+</resources>
